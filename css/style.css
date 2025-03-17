@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #7B50A1;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header h1 {
+    color: white;
+    display: inline-block;
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #7B50A1;
+    padding: 60px 0;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: #FF6F61;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Services Section */
+.services {
+    background-color: #2EC4B6;
+    padding: 60px 0;
+    color: white;
+}
+
+.services h2 {
+    font-size: 26px;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.service {
+    width: 23%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+}
+
+.service img {
+    width: 50px;
+    height: 50px;
+}
+
+.service h3 {
+    margin: 10px 0;
+}
