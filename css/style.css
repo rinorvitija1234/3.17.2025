@@ -38,7 +38,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 16px;
 }
@@ -98,4 +98,84 @@ nav ul li a {
 
 .service h3 {
     margin: 10px 0;
+}
+
+.testimonials {
+    background-color: #E14C78;
+    padding: 60px 0;
+    color: white;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.testimonial-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.testimonial {
+    width: 45%;
+    padding: 20px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    background: gray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+}
+
+.testimonial h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #344D91;
+    padding: 60px 0;
+    color: white;
+    text-align: center;
+}
+
+.contact p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #339AF0;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
 }
